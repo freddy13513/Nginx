@@ -4,7 +4,7 @@
 
 1.Introducción.
 
-2. Comparativa con Apache.
+2.Comparativa con Apache.
 
 3.Instalación.
 
