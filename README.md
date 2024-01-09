@@ -1,11 +1,13 @@
 # Nginx
 
-## Introducción.
+## Indice 
 
-## Comparativa con Apache.
+1.Introducción.
 
-## Instalación.
+2. Comparativa con Apache.
 
-## Casos prácticos.
+3.Instalación.
+
+4.Casos prácticos.
 
 ## Referencias.
