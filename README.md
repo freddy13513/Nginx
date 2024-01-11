@@ -1,8 +1,10 @@
 # Nginx
 
+![image](/img/Nginx.jpg)   
+
 ## Indice 
 
-1.Introducción.
+1.[Introduccion](introducion.md)
 
 2.Comparativa con Apache.
 
