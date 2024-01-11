@@ -1,6 +1,6 @@
 # Nginx
 
-![image](/img/Nginx.jpg)   
+![image](/img/NGINX.jpg)   
 
 ## Indice 
 
