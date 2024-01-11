@@ -1,8 +1,8 @@
-##Compartiva entre Apache y Nginx
+## Compartiva entre Apache y Nginx
 
 Por un lado tenemos Apache que es el servidor web más popular actualmente gracias a su gran compatibilidad de potencia, su simplicidad arquitectónica y un soporte multiplataforma muy útil. Por otro lado tenemos Nginx que al igual que Apache también es un servidor HTTP de código abierto y gratuito. Tambíen puede ser usado como proxy TCP/UDP, como proxy de correo y como proxy inverso. Nginx usa recursos mínimos para servir a un gran número de usuarios, lo que es un problema para Apache pero que nginx ha sabido resolver.
 
-###Diferencias
+### Diferencias
 
 En cuanto al sistema operativo, ambos funcionan bien con UNIX/LINUX pero si se quiere usar Windows, Apache es mejor opción.
 La administración y mantenimiento de Apache viene dada por una comunidad de desarrollos y la de Nginx por la propia empresa que lo creó.
