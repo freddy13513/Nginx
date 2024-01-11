@@ -6,7 +6,7 @@
 
 1.[Introduccion](introduccion.md)
 
-2.Comparativa con Apache.
+2.[Comparativa con Apache](comparativa.md)
 
 3.Instalación.
 
