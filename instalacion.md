@@ -15,5 +15,5 @@ systemctl status nginx
 ![image](/img/3.jpg)
 
 
-### paraa estar del todo seguros, vemos la página web por defecto desde el navegador
+### para estar del todo seguros, vemos la página web por defecto desde el navegador
 ![image](/img/4.jpg)
