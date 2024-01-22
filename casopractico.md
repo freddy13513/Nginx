@@ -3,7 +3,9 @@
 ![image](/img/10.jpg)
 
 ### Ficheros de configuración.
+
 www/var/htlm
+
 ![image](/img/11.jpg)
 
 ### Modifica la página web que lanza por defecto y personalízala.
