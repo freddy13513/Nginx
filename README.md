@@ -10,6 +10,6 @@
 
 3.[Instalación](instalacion.md)
 
-4.Casos prácticos.
+4.[Casos prácticos](casopractico.md)
 
 ## Referencias.
