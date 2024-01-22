@@ -11,6 +11,5 @@
 
 ![image](/img/13.jpg)
 
-#### Virtual Hosting:
-
-Queremos que nuestro servidor web ofrezca balanceo de carga desde https  a dos sitios web que tengan también https.
+### Balanceo de carga desde https
+En esta práctica voy a usar tres máquinas virtuales. Dos harán de servidores y una de balanceador de carga.
