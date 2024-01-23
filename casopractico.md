@@ -60,3 +60,6 @@ Edito el fichero y le añado los dos servidores
 
 Compruebo la sintaxis con el comando
 ![image](/img/26.jpg)
+
+Una vez que la sintaxis está correcta, modifico el fichero /etc/hosts añadiendo la IP del balanceador de carga y la página
+![image](/img/27.jpg)
