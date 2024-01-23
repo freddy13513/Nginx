@@ -23,3 +23,9 @@ Lo primero le añado una tarjeta de red interna con la ip 192.168.100.2
 
 Instalo Nginx y configuro la pafina por defecto
 ![image](/img/15.jpg)
+
+modificamos el fichero /etc/hosts y le añadimos la pagina que he creado antes 
+![image](/img/16.jpg)
+
+comprobamos desde el navegador 
+![image](/img/17.jpg)
