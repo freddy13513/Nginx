@@ -53,5 +53,10 @@ Instalo nginx. Elimino el archivo de configuración por defecto y creo el nuevo 
 
 ![image](/img/23.jpg)
 
-Edito el fichero y le añado los dos servidores
 ![image](/img/24.jpg)
+
+Edito el fichero y le añado los dos servidores
+![image](/img/25.jpg)
+
+Compruebo la sintaxis con el comando
+![image](/img/26.jpg)
