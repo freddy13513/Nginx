@@ -18,7 +18,7 @@ www/var/htlm
 En esta práctica voy a usar tres máquinas virtuales. Dos harán de servidores y una de balanceador de carga.
 
 Maquina 1
-Lo primero le añado una tarjeta de red interna con la ip 192.168.100.2
+Lo primero le añado una tarjeta de red interna con la ip 192.168.100.1
 ![image](/img/14.jpg)
 
 Instalo Nginx y configuro la pafina por defecto
@@ -29,3 +29,16 @@ modificamos el fichero /etc/hosts y le añadimos la pagina que he creado antes
 
 comprobamos desde el navegador 
 ![image](/img/17.jpg)
+
+Maquina 2 volvemos a repetir el proceso anterior  le añado una tarjeta de red interna pero en este caso con la ip 192.168.100.2 
+![image](/img/18.jpg)
+
+Instalo Nginx y configuro la pafina por defecto
+![image](/img/19.jpg)
+
+modificamos el fichero /etc/hosts y le añadimos la pagina que he creado antes 
+![image](/img/20.jpg)
+
+comprobamos desde el navegador 
+![image](/img/21.jpg)
+
