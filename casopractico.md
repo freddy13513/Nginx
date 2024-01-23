@@ -42,3 +42,16 @@ modificamos el fichero /etc/hosts y le añadimos la pagina que he creado antes
 comprobamos desde el navegador 
 ![image](/img/21.jpg)
 
+
+Máquina 3 (balanceador de carga)
+
+Para esta máquina, al igual que las otras dos, le añado la tarjeta de red interna con la IP 192.168.100.3
+
+![image](/img/22.jpg)
+
+Instalo nginx. Elimino el archivo de configuración por defecto y creo el nuevo archivo de configuración del balanceador de carga.
+
+![image](/img/23.jpg)
+
+Edito el fichero y le añado los dos servidores
+![image](/img/24.jpg)
