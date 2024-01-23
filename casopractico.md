@@ -16,3 +16,10 @@ www/var/htlm
 
 ### Balanceo de carga desde https
 En esta práctica voy a usar tres máquinas virtuales. Dos harán de servidores y una de balanceador de carga.
+
+Maquina 1
+Lo primero le añado una tarjeta de red interna con la ip 192.168.100.2
+![image](/img/14.jpg)
+
+Instalo Nginx y configuro la pafina por defecto
+![image](/img/15.jpg)
