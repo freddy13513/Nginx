@@ -19,27 +19,35 @@ En esta práctica voy a usar tres máquinas virtuales. Dos harán de servidores 
 
 Maquina 1
 Lo primero le añado una tarjeta de red interna con la ip 192.168.100.1
+
 ![image](/img/14.jpg)
 
 Instalo Nginx y configuro la pafina por defecto
+
 ![image](/img/15.jpg)
 
-modificamos el fichero /etc/hosts y le añadimos la pagina que he creado antes 
+Modificamos el fichero /etc/hosts y le añadimos la pagina que he creado antes 
+
 ![image](/img/16.jpg)
 
-comprobamos desde el navegador 
+Comprobamos desde el navegador 
+
 ![image](/img/17.jpg)
 
 Maquina 2 volvemos a repetir el proceso anterior  le añado una tarjeta de red interna pero en este caso con la ip 192.168.100.2 
+
 ![image](/img/18.jpg)
 
 Instalo Nginx y configuro la pagina por defecto
+
 ![image](/img/19.jpg)
 
-modificamos el fichero /etc/hosts y le añadimos la pagina que he creado antes 
+Modificamos el fichero /etc/hosts y le añadimos la pagina que he creado antes 
+
 ![image](/img/20.jpg)
 
-comprobamos desde el navegador 
+Comprobamos desde el navegador 
+
 ![image](/img/21.jpg)
 
 
@@ -56,16 +64,20 @@ Instalo nginx. Elimino el archivo de configuración por defecto y creo el nuevo 
 ![image](/img/24.jpg)
 
 Edito el fichero y le añado los dos servidores
+
 ![image](/img/25.jpg)
 
 Compruebo la sintaxis con el comando
+
 ![image](/img/26.jpg)
 
 Una vez que la sintaxis está correcta, modifico el fichero /etc/hosts añadiendo la IP del balanceador de carga y la página
 www.freddy206.com
+
 ![image](/img/27.jpg)
 
 Reincio el servicio de nginx y compruebo desde el navegador que está balanceando la carga.
+
 ![image](/img/28.jpg)
 ![image](/img/29.jpg)
 
