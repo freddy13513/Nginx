@@ -33,7 +33,7 @@ comprobamos desde el navegador
 Maquina 2 volvemos a repetir el proceso anterior  le añado una tarjeta de red interna pero en este caso con la ip 192.168.100.2 
 ![image](/img/18.jpg)
 
-Instalo Nginx y configuro la pafina por defecto
+Instalo Nginx y configuro la pagina por defecto
 ![image](/img/19.jpg)
 
 modificamos el fichero /etc/hosts y le añadimos la pagina que he creado antes 
@@ -62,4 +62,11 @@ Compruebo la sintaxis con el comando
 ![image](/img/26.jpg)
 
 Una vez que la sintaxis está correcta, modifico el fichero /etc/hosts añadiendo la IP del balanceador de carga y la página
+www.freddy206.com
 ![image](/img/27.jpg)
+
+Reincio el servicio de nginx y compruebo desde el navegador que está balanceando la carga.
+![image](/img/28.jpg)
+![image](/img/29.jpg)
+
+
