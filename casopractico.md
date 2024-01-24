@@ -81,4 +81,46 @@ Reincio el servicio de nginx y compruebo desde el navegador que está balanceand
 ![image](/img/28.jpg)
 ![image](/img/29.jpg)
 
+### Habilitar https
+
+Para habilitar https, primero necesito instalar el paquete openssl en el baalanceador de carga
+apt install openssl
+
+![image](/img/30.jpg)
+
+creo un nuevo directorio para los certificados
+
+mkdir /etc/nginx/certificate
+
+![image](/img/31.jpg)
+
+Entro en la carpeta y creo la clave privada y el certificado mediante el comando openssl
+
+openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out nginx-certificate.crt -keyout nginx.key
+
+![image](/img/32.jpg)
+
+Modifico el fichero de configuración del balanceador de carga
+
+![image](/img/33.jpg)
+
+Compruebo la sintaxis
+
+nginx -t
+
+![image](/img/34.jpg)
+
+Compruebo desde el navegaador
+
+![image](/img/35.jpg)
+
+
+
+
+
+
+
+
+
+
 
